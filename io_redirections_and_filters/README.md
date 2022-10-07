@@ -48,7 +48,7 @@ TASKS
 
    The file iacta will be in the working directory
 
-      => You’re not allowed to use sed
+            => You’re not allowed to use sed
 
 
 7. IT IS A GOOD FILE THAT CUTS IRON WITHOUT MAKING A NOISE
@@ -67,7 +67,7 @@ TASKS
 
    Write a script that duplicates the last line of the file iacta
 
-      => The file iacta will be in the working directory
+            => The file iacta will be in the working directory
 
 
 10. NO MORE JAVASCRIPT
@@ -79,9 +79,9 @@ TASKS
 
     Write a script that counts the number of directories and sub-directories in the current directory.
 
-       => The current and parent directories should not be taken into account
+             => The current and parent directories should not be taken into account
 
-       => Hidden directories should be counted
+             => Hidden directories should be counted
 
 
 12. WHAT'S NEW
@@ -90,20 +90,20 @@ TASKS
 
     Requirements :
 
-       => One file per line
+             => One file per line
 
-       => Sorted from the newest to the oldest
+             => Sorted from the newest to the oldest
 
 
 13. BEING UNIQUE IS BETTER THAN BEING PERFECT
 
     Create a script that takes a list of words as input and prints only words that appear exactly once.
 
-       => Input format: One line, one word
+             => Input format: One line, one word
 
-       => Output format: One line, one word
+             => Output format: One line, one word
 
-       => Words should be sorted
+             => Words should be sorted
 
 
 14. IT MUST BE IN THAT FILE
@@ -130,7 +130,7 @@ TASKS
 
     Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 
-       => include capital letters as well
+             => include capital letters as well
 
 
 19. A TO Z
@@ -152,41 +152,41 @@ TASKS
 
     Write a script that displays all users and their home directories, sorted by users.
 
-       => Based on the the /etc/passwd file
+             => Based on the the /etc/passwd file
 
 
 23. EMPTY CASKS MAKE THE MOST NOISE
 
     Write a command that finds all empty files and directories in the current directory and all sub-directories.
 
-       => Only the names of the files and directories should be displayed (not the entire path)
+             => Only the names of the files and directories should be displayed (not the entire path)
 
-       => Hidden files should be listed
+             => Hidden files should be listed
 
-       => One file name per line
+             => One file name per line
 
-       => The listing should end with a new line
+             => The listing should end with a new line
 
-       => You are not allowed to use basename, grep, egrep, fgrep or rgrep
+             => You are not allowed to use basename, grep, egrep, fgrep or rgrep
 
 
 24. A GIF IS WORTH TEN THOUSAND WORDS
 
     Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 
-       => Hidden files should be listed
+             => Hidden files should be listed
        
-       => Only regular files (not directories) should be listed
+             => Only regular files (not directories) should be listed
 
-       => The names of the files should be displayed without their extensions
+             => The names of the files should be displayed without their extensions
 
-       => The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
+             => The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
 
-       => One file name per line
+             => One file name per line
 
-       => The listing should end with a new line
+             => The listing should end with a new line
 
-       => You are not allowed to use basename, grep, egrep, fgrep or rgrep
+             => You are not allowed to use basename, grep, egrep, fgrep or rgrep
 
 
 25. ACROSTIC
@@ -195,17 +195,17 @@ TASKS
 
     Create a script that decodes acrostics that use the first letter of each line.
 
-       => The ‘decoded’ message has to end with a new line
+             => The ‘decoded’ message has to end with a new line
 
-       => You are not allowed to use grep, egrep, fgrep or rgrep
+             => You are not allowed to use grep, egrep, fgrep or rgrep
 
 
 26. THE BIGGEST FAN
 
     Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 
-       => Order by number of requests, most active host or IP at the top
+             => Order by number of requests, most active host or IP at the top
 
-       => You are not allowed to use grep, egrep, fgrep or rgrep
+             => You are not allowed to use grep, egrep, fgrep or rgrep
 
 
