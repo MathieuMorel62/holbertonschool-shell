@@ -1,4 +1,4 @@
-                          NAME OF THE  PROJECTS
+                                    NAME OF THE  PROJECTS
 
 
 1. SHELL, BASICS
