@@ -12,94 +12,94 @@ NAME OF THE  PROJECTS
 
    WHAT IS THE SHELL
 
-      => What is the shell
+            => What is the shell
 
-      => What is the difference between a terminal and a shell
+            => What is the difference between a terminal and a shell
 
-      => What is the shell prompt
+            => What is the shell prompt
 
-      => How to use the history (the basics)
+            => How to use the history (the basics)
 
 
    NAVIGATION
 
-      => What do the commands or built-ins cd, pwd, ls do
+            => What do the commands or built-ins cd, pwd, ls do
 
-      => How to navigate the filesystem
+            => How to navigate the filesystem
 
-      => What are the . and .. directories
+            => What are the . and .. directories
 
-      => What is the working directory, how to print it and how to change it
+            => What is the working directory, how to print it and how to change it
 
-      => What is the root directory
+            => What is the root directory
 
-      => What is the home directory, and how to go there
+            => What is the home directory, and how to go there
 
-      => What is the difference between the root directory and the home directory of the user root
+            => What is the difference between the root directory and the home directory of the user root
 
-      => What are the characteristics of hidden files and how to list them
+            => What are the characteristics of hidden files and how to list them
 
-      => What does the command cd - do
+            => What does the command cd - do
 
 
    LOOKING AROUND
 
-      => What do the commands ls, less, file do
+            => What do the commands ls, less, file do
 
-      => How do you use options and arguments with commands
+            => How do you use options and arguments with commands
 
-      => Understand the ls long format and how to display it
+            => Understand the ls long format and how to display it
 
-      => A Guided Tour  ----->  https://intranet.hbtn.io/rltoken/GznRkhU3QTWAWwDeZ-k9Pw
+            => A Guided Tour  ----->  https://intranet.hbtn.io/rltoken/GznRkhU3QTWAWwDeZ-k9Pw
 
-      => What does the ln command do
+            => What does the ln command do
 
-      => What do you find in the most common/important directories
+            => What do you find in the most common/important directories
 
-      => What is a symbolic link
+            => What is a symbolic link
 
-      => What is a hard link
+            => What is a hard link
 
-      => What is the difference between a hard link and a symbolic link
+            => What is the difference between a hard link and a symbolic link
 
 
    MANIPULING FILES
 
-      => What do the commands cp, mv, rm, mkdir do
+            => What do the commands cp, mv, rm, mkdir do
 
-      => What are wildcards and how do they work
+            => What are wildcards and how do they work
 
-      => How to use wildcards
+            => How to use wildcards
 
    
    WORKING WHITH COMMANDS
 
-      => What do type, which, help, man commands do 
+            => What do type, which, help, man commands do 
 
-      => What are the different kinds of commands
+            => What are the different kinds of commands
 
-      => What is an alias
+            => What is an alias
 
-      => When do you use the command help instead of man
+            => When do you use the command help instead of man
 
 
    READING MAN PAGES
 
-      => How to read a man page
+            => How to read a man page
 
-      => What are man page sections
+            => What are man page sections
 
-      => What are the section numbers for User commands, System calls and Library functions
+            => What are the section numbers for User commands, System calls and Library functions
 
 
    KEYBOARD SHORTCUTS FOR BASH
 
-      => Common shortcuts for Bash
+            => Common shortcuts for Bash
 
 
    LTS
 
-      => What does LTS mean ?
+            => What does LTS mean ?
 
 
 
@@ -109,32 +109,32 @@ NAME OF THE  PROJECTS
 
    PERMISSIONS
 
-      => What do the commands chmod, sudo, su, chown, chgrp do
+            => What do the commands chmod, sudo, su, chown, chgrp do
  
-      => Linux file permissions
+            => Linux file permissions
 
-      => How to represent each of the three sets of permissions (owner, group, and other) as a single digit
+            => How to represent each of the three sets of permissions (owner, group, and other) as a single digit
 
-      => How to change permissions, owner and group of a file
+            => How to change permissions, owner and group of a file
 
-      => Why can’t a normal user chown a file
+            => Why can’t a normal user chown a file
 
-      => How to run a command with root privileges
+            => How to run a command with root privileges
 
-      => How to change user ID or become superuser
+            => How to change user ID or become superuser
 
 
    OTHER MAN PAGES
 
-      => How to create a user
+            => How to create a user
 
-      => How to create a group
+            => How to create a group
 
-      => How to print real and effective user and group IDs
+            => How to print real and effective user and group IDs
 
-      => How to print the groups a user is in
+            => How to print the groups a user is in
 
-      => How to print the effective userid
+            => How to print the effective userid
 
 
 
@@ -144,37 +144,37 @@ NAME OF THE  PROJECTS
 
    SHELL, I/O REDIRECTION
 
-      => What do the commands head, tail, find, wc, sort, uniq, grep, tr do 
+            => What do the commands head, tail, find, wc, sort, uniq, grep, tr do 
 
-      => How to redirect standard output to a file
+            => How to redirect standard output to a file
 
-      => How to get standard input from a file instead of the keyboard
+            => How to get standard input from a file instead of the keyboard
 
-      => How to send the output from one program to the input of another program
+            => How to send the output from one program to the input of another program
 
-      => How to combine commands and filters with redirections
+            => How to combine commands and filters with redirections
 
 
    SPECIAL CHARACTERS
 
-      => What are special characters
+            => What are special characters
 
-      => Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
+            => Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
 
 
    OTHER MAN PAGES
 
-      => How to display a line of text
+            => How to display a line of text
 
-      => How to concatenate files and print on the standard output
+            => How to concatenate files and print on the standard output
 
-      => How to reverse a string
+            => How to reverse a string
 
-      => How to remove sections from each line of files
+            => How to remove sections from each line of files
 
-      => What is the /etc/passwd file and what is its format
+            => What is the /etc/passwd file and what is its format
 
-      => What is the /etc/shadow file and what is its format
+            => What is the /etc/shadow file and what is its format
 
 
 
@@ -184,55 +184,55 @@ NAME OF THE  PROJECTS
 
    GENERAL
 
-      => What happens when you type $ ls -l *.txt
+            => What happens when you type $ ls -l *.txt
 
 
    SHELL INITIALIZATION FILES
 
-      => What are the /etc/profile file and the /etc/profile.d directory
+            => What are the /etc/profile file and the /etc/profile.d directory
 
-      => What is the ~/.bashrc file
+            => What is the ~/.bashrc file
 
 
    VARIABLES
 
-      => What is the difference between a local and a global variable
+            => What is the difference between a local and a global variable
 
-      => What is a reserved variable
+            => What is a reserved variable
 
-      => How to create, update and delete shell variables
+            => How to create, update and delete shell variables
 
-      => What are the roles of the following reserved variables: HOME, PATH, PS1
+            => What are the roles of the following reserved variables: HOME, PATH, PS1
 
-      => What are special parameters
+            => What are special parameters
 
-      => What is the special parameter $? ?
+            => What is the special parameter $? ?
 
 
    EXPANSIONS
 
-      => What is expansion and how to use them
+            => What is expansion and how to use them
 
-      => What is the difference between single and double quotes and how to use them properly
+            => What is the difference between single and double quotes and how to use them properly
 
-      => How to do command substitution with $() and backticks
+            => How to do command substitution with $() and backticks
 
 
    SHELL ARITHMETIC
 
-      => How to perform arithmetic operations with the shell
+            => How to perform arithmetic operations with the shell
 
 
    THE ALIAS COMMAND
 
-      => How to create an alias
+            => How to create an alias
 
-      => How to list aliases
+            => How to list aliases
 
-      => How to temporarily disable an alias
+            => How to temporarily disable an alias
 
 
    OTHER HELP PAGES
 
-      => How to execute commands from a file in the current shell
+            => How to execute commands from a file in the current shell
 
