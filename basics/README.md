@@ -3,30 +3,28 @@ SHELL, BASICS
 
 RESOURCES
 
-   Read or watch:
 
-      => What Is "The Shell" ?  -----> https://intranet.hbtn.io/rltoken/aygkrwOyI_yLtXHF1Yj0QQ
+Read or watch:
 
-      => Navigation  -----> https://intranet.hbtn.io/rltoken/fMDkg3TKjANJSPTROMQSpA
+=> What Is "The Shell" ?  ----->  https://intranet.hbtn.io/rltoken/aygkrwOyI_yLtXHF1Yj0QQ
 
-      => Looking Around  -----> https://intranet.hbtn.io/rltoken/isPTWCOgTjeLaonZg8Rl5g
+=> Navigation  ----->  https://intranet.hbtn.io/rltoken/fMDkg3TKjANJSPTROMQSpA
 
-      => A Guided Tour  -----> https://intranet.hbtn.io/rltoken/GznRkhU3QTWAWwDeZ-k9Pw
+=> Looking Around  ----->  https://intranet.hbtn.io/rltoken/isPTWCOgTjeLaonZg8Rl5g
 
-      => Manipulating Files  -----> https://intranet.hbtn.io/rltoken/GA2UvOhDOjwa-NtbazvlCQ
+=> A Guided Tour  ----->  https://intranet.hbtn.io/rltoken/GznRkhU3QTWAWwDeZ-k9Pw
 
-      => Working With Commands  -----> https://intranet.hbtn.io/rltoken/ylGnKaanTSp3jIpXme9krg
+=> Manipuling Files  ----->  https://intranet.hbtn.io/rltoken/GA2UvOhDOjwa-NtbazvlCQ
 
-      => Reading Man Pages  -----> https://intranet.hbtn.io/rltoken/52aXMywgSkXV07rFrX8eWw
+=> Working With Commands  ----->  https://intranet.hbtn.io/rltoken/ylGnKaanTSp3jIpXme9krg
 
-      => Keyboard Shortcuts For Bash  -----> https://intranet.hbtn.io/rltoken/XXe2AD3TVWvNFwSP5_-YWQ
+=> Reading Man Pages  ----->  https://intranet.hbtn.io/rltoken/52aXMywgSkXV07rFrX8eWw
 
-      => LTS  -----> https://wiki.ubuntu.com/LTS
+=> Keyboard Shortcuts For Bash  ----->  https://intranet.hbtn.io/rltoken/XXe2AD3TVWvNFwSP5_-YWQ
 
-      => Shebang  -----> https://intranet.hbtn.io/rltoken/_pJ5Fl2TaZVzW3jJy_mwKA
+=> LTS  ----->  https://wiki.ubuntu.com/LTS
 
-
-
+=> Shebang  ----->  https://intranet.hbtn.io/rltoken/_pJ5Fl2TaZVzW3jJy_mwKA
 TASKS
 
 0. WHERE AM I ?
