@@ -1,4 +1,4 @@
-SHELL, BASICS
+                                         SHELL, BASICS
 
 
 RESOURCES
