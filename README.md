@@ -5,9 +5,9 @@ NAME OF THE  PROJECTS
 
    GENERAL
 
-      => What does RTFM mean ?
+            => What does RTFM mean ?
 
-      => What is a Shebang
+            => What is a Shebang
 
 
    WHAT IS THE SHELL
