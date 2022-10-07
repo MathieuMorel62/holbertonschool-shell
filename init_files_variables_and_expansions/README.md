@@ -25,9 +25,9 @@ TASKS
 
    Create a script that creates an alias.
  
-      => Name: ls
+            => Name: ls
 
-      => Value: rm *
+            => Value: rm *
 
 
 1. HELLO YOU
@@ -59,18 +59,18 @@ TASKS
 
    Create a script that creates a new local variable.
 
-      => Name: BEST
+            => Name: BEST
 
-      => Value: School
+            => Value: School
 
 
 7. GLOBAL VARIABLE 
 
    Create a script that creates a new global variable.
 
-      => Name: BEST
+            => Name: BEST
 
-      => Value: School
+            => Value: School
 
 
 8. EVERY ADDITION TO TRUE KNOWLEDGE IS AN ADDITION TO HUMAN POWER 
@@ -82,40 +82,40 @@ TASKS
 
    Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
-      => POWER and DIVIDE are environment variables
+            => POWER and DIVIDE are environment variables
 
 
 10. LOVE IS ANTERIOR TO LIFE, POSTERIOR TO DEATH, INITIAL OF CREATION, AND THE EXPONENT OF BREATH
 
     Write a script that displays the result of BREATH to the power LOVE
 
-       => BREATH and LOVE are environment variables
+             => BREATH and LOVE are environment variables
 
-       => The script should display the result, followed by a new line
+             => The script should display the result, followed by a new line
 
 
 11. THERE ARE 10 TYPES OF PEOPLE IN THE WORLD -- THOSE WHO UNDERSTAND BINARY, AND THOSE WHO DON'T
 
     Write a script that converts a number from base 2 to base 10.
 
-       => The number in base 2 is stored in the environment variable BINARY
+             => The number in base 2 is stored in the environment variable BINARY
 
-       => The script should display the number in base 10, followed by a new line
+             => The script should display the number in base 10, followed by a new line
 
 
 12. COMBINATION
 
     Create a script that prints all possible combinations of two letters, except oo.
 
-       => Letters are lower cases, from a to z
+             => Letters are lower cases, from a to z
 
-       => One combination per line
+             => One combination per line
 
-       => The output should be alpha ordered, starting with aa
+             => The output should be alpha ordered, starting with aa
 
-       => Do not print oo
+             => Do not print oo
 
-       => Your script file should contain maximum 64 characters
+             => Your script file should contain maximum 64 characters
 
 
 13. FLOATS
@@ -129,24 +129,24 @@ TASKS
 
     Write a script that converts a number from base 10 to base 16.
 
-       => The number in base 10 is stored in the environment variable DECIMAL
+             => The number in base 10 is stored in the environment variable DECIMAL
 
-       => The script should display the number in base 16, followed by a new line
+             => The script should display the number in base 16, followed by a new line
 
 
 15. WHAT HAPPENS WHEN YOU TYPE LS*.C
 
     Write a blog post describing step by step what happens when you type ls *.c and hit Enter in your shell. Try to explain every step you know of, and give examples. A total beginner should understand what you have written.
 
-       => Have at least one picture, at the top of the blog post
+             => Have at least one picture, at the top of the blog post
 
-       => Publish your blog post on Medium or LinkedIn
+             => Publish your blog post on Medium or LinkedIn
 
-       => Share your blog post at least on LinkedIn
+             => Share your blog post at least on LinkedIn
 
-       => Write professionally and intelligibly
+             => Write professionally and intelligibly
 
-       => Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
+             => Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
 
     When done, please add all urls below (blog post, LinkedIn post, etc.)
 
@@ -165,10 +165,10 @@ TASKS
 
     Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 
-       => WATER is in base water
+             => WATER is in base water
 
-       => STIR is in base stir.
+             => STIR is in base stir.
 
-       => The result should be in base bestchol
+             => The result should be in base bestchol
 
 
