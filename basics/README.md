@@ -44,7 +44,7 @@ TASKS
 
    Write a script that changes the working directory to the user’s home directory.
 
-      => You are not allowed to use any shell variables
+            => You are not allowed to use any shell variables
 
 
 3. THE LONG FORMAT
@@ -61,11 +61,11 @@ TASKS
 
    Display current directory contents.
 
-      => Long format
+            => Long format
 
-      => with user and group IDs displayed numerically
+            => with user and group IDs displayed numerically
 
-      => And hidden files (starting with .)
+            => And hidden files (starting with .)
 
 
 6. WELCOME
@@ -82,7 +82,7 @@ TASKS
 
    Delete the file betty.
 
-      => he file betty is in /tmp/my_first_directory
+            => he file betty is in /tmp/my_first_directory
 
 
 9. BYE BYE MY FIRST DIRECTORY
