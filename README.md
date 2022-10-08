@@ -4,7 +4,7 @@
 
 ----------------------
 
-## 1. SHELL, BASICS
+## [1. SHELL, BASICS](https://github.com/MathieuMorel62/holbertonschool-shell/tree/master/basics)
 
 
 #### GENERAL
@@ -109,7 +109,7 @@
 
 
 
-## 2. SHELL, PERMISSIONS
+## [2. SHELL, PERMISSIONS](https://github.com/MathieuMorel62/holbertonschool-shell/tree/master/permissions)
 
 
 #### PERMISSIONS
@@ -144,7 +144,7 @@
 --------------------------
 
 
-## 3. SHELL, I/O REDIRECTIONS AND FILTERS
+## [3. SHELL, I/O REDIRECTIONS AND FILTERS](https://github.com/MathieuMorel62/holbertonschool-shell/tree/master/io_redirections_and_filters)
 
 #### SHELL, I/O REDIRECTION
 
@@ -183,7 +183,7 @@
 --------------------------------
 
 
-## 4. SHELL, INIT FILES, VARIABLES AND EXPANSIONS
+## [4. SHELL, INIT FILES, VARIABLES AND EXPANSIONS](https://github.com/MathieuMorel62/holbertonschool-shell/tree/master/init_files_variables_and_expansions)
 
 #### GENERAL
 
