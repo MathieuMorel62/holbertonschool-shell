@@ -1,174 +1,194 @@
-                               SHELL, INIT FILES, VARIABLES AND EXPANSIONS
+# SHELL, INIT FILES, VARIABLES AND EXPANSIONS
 
+![img](https://miro.medium.com/max/1400/1*Yln1pgshMWJsX7p4HxTzAA.png)
 
-RESOURCES
+## RESOURCES
 
-Read or watch :
+### Read or watch :
 
-   => Expansions                  ----->  https://intranet.hbtn.io/rltoken/qvjamZX_aoZmdZOiEapxzw
+- [Expansions](https://intranet.hbtn.io/rltoken/qvjamZX_aoZmdZOiEapxzw)
 
-   => Shell Arithmetic            -----> https://intranet.hbtn.io/rltoken/CuAnsjJ9mg_y-zBVwmn7mg
+- [Shell Arithmetic](https://intranet.hbtn.io/rltoken/CuAnsjJ9mg_y-zBVwmn7mg)
 
-   => Variables                   -----> https://intranet.hbtn.io/rltoken/vjgJv9-2mvkhoMT05Mk-VA
+- [Variables](https://intranet.hbtn.io/rltoken/vjgJv9-2mvkhoMT05Mk-VA)
 
-   => Shell Initialization Files  ----->  https://intranet.hbtn.io/rltoken/0DxDIIG_UpoM7cKGhsuVWw
+- [Shell Initialization Files](https://intranet.hbtn.io/rltoken/0DxDIIG_UpoM7cKGhsuVWw)
 
-   => The Alias Command           ----->  https://intranet.hbtn.io/rltoken/vOCzCs3YAUxGZlfD4PTeeg
+- [The Alias Command](https://intranet.hbtn.io/rltoken/vOCzCs3YAUxGZlfD4PTeeg)
 
-   => Technical Writing           -----> https://intranet.hbtn.io/rltoken/-f0eRmOjXoyySeqW6xvc7Q
+- [Technical Writing](https://intranet.hbtn.io/rltoken/-f0eRmOjXoyySeqW6xvc7Q)
 
+--------------------------
 
-TASKS
+# TASKS
 
 
-0. <o>
+[0. < o >](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/0-alias)
 
-   Create a script that creates an alias.
- 
-            => Name: ls
+Create a script that creates an alias.
 
-            => Value: rm *
+  - Name: ls
 
+  - Value: rm *
 
-1. HELLO YOU
+----------------------------------
 
-   Create a script that prints hello user, where user is the current Linux user.
+[1. HELLO YOU](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/1-hello_you)
 
+Create a script that prints hello user, where user is the current Linux user.
 
-2. THE PATH TO SUCCESS IS TO TAKE MASSIVE, DETERMINATED ACTION
+---------------------------
 
-   Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+[2. THE PATH TO SUCCESS IS TO TAKE MASSIVE, DETERMINATED ACTION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/2-path)
 
+Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
-3. IF THE PATH BE BEAUTIFUL, LET US NOT ASK WHERE IT LEADS
+-------------------------------
 
-   Create a script that counts the number of directories in the PATH.
- 
+[3. IF THE PATH BE BEAUTIFUL, LET US NOT ASK WHERE IT LEADS](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/3-paths)
 
-4. GLOBAL VARIABLES
+Create a script that counts the number of directories in the PATH.
 
-   Create a script that lists environment variables.
+------------------------------
 
+[4. GLOBAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/4-global_variables)
 
-5. LOCAL VARIABLES
+Create a script that lists environment variables.
 
-   Create a script that lists all local variables and environment variables, and functions.
+---------------------------
 
+[5. LOCAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/5-local_variables)
 
-6. LOCAL VARIABLES
+Create a script that lists all local variables and environment variables, and functions.
 
-   Create a script that creates a new local variable.
+------------------------------
 
-            => Name: BEST
+[6. LOCAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/6-create_local_variable)
 
-            => Value: School
+Create a script that creates a new local variable.
 
+  - Name: BEST
 
-7. GLOBAL VARIABLE 
+  - Value: School
 
-   Create a script that creates a new global variable.
+------------------------------
 
-            => Name: BEST
+[7. GLOBAL VARIABLE ](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/7-create_global_variable)
 
-            => Value: School
+Create a script that creates a new global variable.
 
+  - Name: BEST
 
-8. EVERY ADDITION TO TRUE KNOWLEDGE IS AN ADDITION TO HUMAN POWER 
+  - Value: School
 
-   Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+-----------------------------
 
+[8. EVERY ADDITION TO TRUE KNOWLEDGE IS AN ADDITION TO HUMAN POWER ](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/8-true_knowledge)
 
-9. DIVIDE AND RULE 
+Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
-   Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
+-----------------------------
 
-            => POWER and DIVIDE are environment variables
+[9. DIVIDE AND RULE]( https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/9-divide_and_rule)
 
+Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
-10. LOVE IS ANTERIOR TO LIFE, POSTERIOR TO DEATH, INITIAL OF CREATION, AND THE EXPONENT OF BREATH
+  - POWER and DIVIDE are environment variables
 
-    Write a script that displays the result of BREATH to the power LOVE
+------------------------------
 
-             => BREATH and LOVE are environment variables
+[10. LOVE IS ANTERIOR TO LIFE, POSTERIOR TO DEATH, INITIAL OF CREATION, AND THE EXPONENT OF BREATH](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/10-love_exponent_breath)
 
-             => The script should display the result, followed by a new line
+Write a script that displays the result of BREATH to the power LOVE
 
+  - BREATH and LOVE are environment variables
 
-11. THERE ARE 10 TYPES OF PEOPLE IN THE WORLD -- THOSE WHO UNDERSTAND BINARY, AND THOSE WHO DON'T
+  - The script should display the result, followed by a new line
 
-    Write a script that converts a number from base 2 to base 10.
+------------------------------
 
-             => The number in base 2 is stored in the environment variable BINARY
+[11. THERE ARE 10 TYPES OF PEOPLE IN THE WORLD -- THOSE WHO UNDERSTAND BINARY, AND THOSE WHO DON'T](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/11-binary_to_decimal)
 
-             => The script should display the number in base 10, followed by a new line
+Write a script that converts a number from base 2 to base 10.
 
+  - The number in base 2 is stored in the environment variable BINARY
 
-12. COMBINATION
+  - The script should display the number in base 10, followed by a new line
 
-    Create a script that prints all possible combinations of two letters, except oo.
+-----------------------
 
-             => Letters are lower cases, from a to z
+[12. COMBINATION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/12-combinations)
 
-             => One combination per line
+Create a script that prints all possible combinations of two letters, except oo.
 
-             => The output should be alpha ordered, starting with aa
+  - Letters are lower cases, from a to z
 
-             => Do not print oo
+  - One combination per line
 
-             => Your script file should contain maximum 64 characters
+  - The output should be alpha ordered, starting with aa
 
+  - Do not print oo
 
-13. FLOATS
+  - Your script file should contain maximum 64 characters
 
-    Write a script that prints a number with two decimal places, followed by a new line.
+---------------------------
 
-    The number will be stored in the environment variable NUM.
+[13. FLOATS](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/13-print_float)
 
+Write a script that prints a number with two decimal places, followed by a new line.
 
-14. DECIMAL TO HEXADECIMAL
+The number will be stored in the environment variable NUM.
 
-    Write a script that converts a number from base 10 to base 16.
+-------------------------
 
-             => The number in base 10 is stored in the environment variable DECIMAL
+[14. DECIMAL TO HEXADECIMAL](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/14-decimal_to_hexadecimal)
 
-             => The script should display the number in base 16, followed by a new line
+Write a script that converts a number from base 10 to base 16.
 
+  - The number in base 10 is stored in the environment variable DECIMAL
 
-15. WHAT HAPPENS WHEN YOU TYPE LS*.C
+  - The script should display the number in base 16, followed by a new line
 
-    Write a blog post describing step by step what happens when you type ls *.c and hit Enter in your shell. Try to explain every step you know of, and give examples. A total beginner should understand what you have written.
+---------------------------
 
-             => Have at least one picture, at the top of the blog post
+[15. WHAT HAPPENS WHEN YOU TYPE LS*.C](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
 
-             => Publish your blog post on Medium or LinkedIn
+Write a blog post describing step by step what happens when you type ls *.c and hit Enter in your shell. Try to explain every step you know of, and give examples. A total beginner should understand what you have written.
 
-             => Share your blog post at least on LinkedIn
+  - Have at least one picture, at the top of the blog post
 
-             => Write professionally and intelligibly
+  - Publish your blog post on Medium or LinkedIn
 
-             => Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
+  - Share your blog post at least on LinkedIn
 
-    When done, please add all urls below (blog post, LinkedIn post, etc.)
+  - Write professionally and intelligibly
 
+  - Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
 
-16. EVERYONE IS A PROPONENT OF STRONG ENCRYPTION
+When done, please add all urls below (blog post, LinkedIn post, etc.)
 
-    Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+--------------------------
 
+[16. EVERYONE IS A PROPONENT OF STRONG ENCRYPTION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
 
-17. THE EGGS OF THE BROOD NEED TO BE AN ODD NUMBER
+Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
-    Write a script that prints every other line from the input, starting with the first line.
+--------------------------
 
+[17. THE EGGS OF THE BROOD NEED TO BE AN ODD NUMBER](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/16-odd)
 
-18. I'M AN INSTANT STAR. JUST ADD WATER AND STIR
+Write a script that prints every other line from the input, starting with the first line.
 
-    Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+---------------------------
 
-             => WATER is in base water
+[18. I'M AN INSTANT STAR. JUST ADD WATER AND STIR](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/17-water_and_stir)
 
-             => STIR is in base stir.
+Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 
-             => The result should be in base bestchol
+  - WATER is in base water
+
+  - STIR is in base stir.
+
+  - The result should be in base bestchol
 
 
