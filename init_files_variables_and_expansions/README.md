@@ -23,7 +23,7 @@
 # TASKS
 
 
-[0. < o >](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/0-alias)
+### [0. < o >](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/0-alias)
 
 Create a script that creates an alias.
 
@@ -33,37 +33,37 @@ Create a script that creates an alias.
 
 ----------------------------------
 
-[1. HELLO YOU](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/1-hello_you)
+### [1. HELLO YOU](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/1-hello_you)
 
 Create a script that prints hello user, where user is the current Linux user.
 
 ---------------------------
 
-[2. THE PATH TO SUCCESS IS TO TAKE MASSIVE, DETERMINATED ACTION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/2-path)
+### [2. THE PATH TO SUCCESS IS TO TAKE MASSIVE, DETERMINATED ACTION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/2-path)
 
 Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
 -------------------------------
 
-[3. IF THE PATH BE BEAUTIFUL, LET US NOT ASK WHERE IT LEADS](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/3-paths)
+### [3. IF THE PATH BE BEAUTIFUL, LET US NOT ASK WHERE IT LEADS](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/3-paths)
 
 Create a script that counts the number of directories in the PATH.
 
 ------------------------------
 
-[4. GLOBAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/4-global_variables)
+### [4. GLOBAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/4-global_variables)
 
 Create a script that lists environment variables.
 
 ---------------------------
 
-[5. LOCAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/5-local_variables)
+### [5. LOCAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/5-local_variables)
 
 Create a script that lists all local variables and environment variables, and functions.
 
 ------------------------------
 
-[6. LOCAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/6-create_local_variable)
+### [6. LOCAL VARIABLES](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/6-create_local_variable)
 
 Create a script that creates a new local variable.
 
@@ -73,7 +73,7 @@ Create a script that creates a new local variable.
 
 ------------------------------
 
-[7. GLOBAL VARIABLE ](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/7-create_global_variable)
+### [7. GLOBAL VARIABLE ](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/7-create_global_variable)
 
 Create a script that creates a new global variable.
 
@@ -83,13 +83,13 @@ Create a script that creates a new global variable.
 
 -----------------------------
 
-[8. EVERY ADDITION TO TRUE KNOWLEDGE IS AN ADDITION TO HUMAN POWER ](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/8-true_knowledge)
+### [8. EVERY ADDITION TO TRUE KNOWLEDGE IS AN ADDITION TO HUMAN POWER ](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/8-true_knowledge)
 
 Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
 -----------------------------
 
-[9. DIVIDE AND RULE]( https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/9-divide_and_rule)
+### [9. DIVIDE AND RULE]( https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/9-divide_and_rule)
 
 Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
@@ -97,7 +97,7 @@ Write a script that prints the result of POWER divided by DIVIDE, followed by a 
 
 ------------------------------
 
-[10. LOVE IS ANTERIOR TO LIFE, POSTERIOR TO DEATH, INITIAL OF CREATION, AND THE EXPONENT OF BREATH](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/10-love_exponent_breath)
+### [10. LOVE IS ANTERIOR TO LIFE, POSTERIOR TO DEATH, INITIAL OF CREATION, AND THE EXPONENT OF BREATH](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/10-love_exponent_breath)
 
 Write a script that displays the result of BREATH to the power LOVE
 
@@ -107,7 +107,7 @@ Write a script that displays the result of BREATH to the power LOVE
 
 ------------------------------
 
-[11. THERE ARE 10 TYPES OF PEOPLE IN THE WORLD -- THOSE WHO UNDERSTAND BINARY, AND THOSE WHO DON'T](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/11-binary_to_decimal)
+### [11. THERE ARE 10 TYPES OF PEOPLE IN THE WORLD -- THOSE WHO UNDERSTAND BINARY, AND THOSE WHO DON'T](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/11-binary_to_decimal)
 
 Write a script that converts a number from base 2 to base 10.
 
@@ -117,7 +117,7 @@ Write a script that converts a number from base 2 to base 10.
 
 -----------------------
 
-[12. COMBINATION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/12-combinations)
+### [12. COMBINATION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/12-combinations)
 
 Create a script that prints all possible combinations of two letters, except oo.
 
@@ -133,7 +133,7 @@ Create a script that prints all possible combinations of two letters, except oo.
 
 ---------------------------
 
-[13. FLOATS](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/13-print_float)
+### [13. FLOATS](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/13-print_float)
 
 Write a script that prints a number with two decimal places, followed by a new line.
 
@@ -141,7 +141,7 @@ The number will be stored in the environment variable NUM.
 
 -------------------------
 
-[14. DECIMAL TO HEXADECIMAL](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/14-decimal_to_hexadecimal)
+### [14. DECIMAL TO HEXADECIMAL](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/14-decimal_to_hexadecimal)
 
 Write a script that converts a number from base 10 to base 16.
 
@@ -151,7 +151,7 @@ Write a script that converts a number from base 10 to base 16.
 
 ---------------------------
 
-[15. WHAT HAPPENS WHEN YOU TYPE LS*.C](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
+### [15. WHAT HAPPENS WHEN YOU TYPE LS*.C](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
 
 Write a blog post describing step by step what happens when you type ls *.c and hit Enter in your shell. Try to explain every step you know of, and give examples. A total beginner should understand what you have written.
 
@@ -169,19 +169,19 @@ When done, please add all urls below (blog post, LinkedIn post, etc.)
 
 --------------------------
 
-[16. EVERYONE IS A PROPONENT OF STRONG ENCRYPTION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
+### [16. EVERYONE IS A PROPONENT OF STRONG ENCRYPTION](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
 
 Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
 --------------------------
 
-[17. THE EGGS OF THE BROOD NEED TO BE AN ODD NUMBER](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/16-odd)
+### [17. THE EGGS OF THE BROOD NEED TO BE AN ODD NUMBER](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/16-odd)
 
 Write a script that prints every other line from the input, starting with the first line.
 
 ---------------------------
 
-[18. I'M AN INSTANT STAR. JUST ADD WATER AND STIR](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/17-water_and_stir)
+### [18. I'M AN INSTANT STAR. JUST ADD WATER AND STIR](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/17-water_and_stir)
 
 Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 
