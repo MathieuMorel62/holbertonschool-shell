@@ -279,7 +279,7 @@ mathieu@ubuntu:/tmp/h$
 
 #### [14. Owner And Group](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/14-change_owner_and_group)
 
-Write a script that changes the owner to `caroline` and the group owner to `staff` for all the files and directories in the working directory.
+Write a script that changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory.
 ```c
 mathieu@ubuntu:/tmp/h$ ls -l
 total 24
@@ -292,12 +292,12 @@ drwxr-x--x 2 mathieu mathieu 4096 Sep 20 14:59 my_dir
 mathieu@ubuntu:/tmp/h$ sudo ./14-change_owner_and_group 
 mathieu@ubuntu:/tmp/h$ ls -l
 total 24
--rwxrwxr-x 1 caroline staff   36 Sep 20 15:06 14-change_owner_and_group
-drwx--x--x 2 caroline staff 4096 Sep 20 14:49 dir0
-drwx--x--x 2 caroline staff 4096 Sep 20 14:49 dir1
-drwx--x--x 2 caroline staff 4096 Sep 20 14:49 dir2
-drwxr-x--x 2 caroline staff 4096 Sep 20 14:59 my_dir
--rw-rw-r-- 1 caroline staff   23 Sep 20 14:25 hello
+-rwxrwxr-x 1 vincent staff   36 Sep 20 15:06 14-change_owner_and_group
+drwx--x--x 2 vincent staff 4096 Sep 20 14:49 dir0
+drwx--x--x 2 vincent staff 4096 Sep 20 14:49 dir1
+drwx--x--x 2 vincent staff 4096 Sep 20 14:49 dir2
+drwxr-x--x 2 vincent staff 4096 Sep 20 14:59 my_dir
+-rw-rw-r-- 1 vincent staff   23 Sep 20 14:25 hello
 mathieu@ubuntu:/tmp/h$ 
 ```
 
@@ -305,7 +305,7 @@ mathieu@ubuntu:/tmp/h$
 
 #### [15. Symbolic Links](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/15-symbolic_link_permissions)
 
-Write a script that changes the owner and the group owner of `_hello` to `caroline` and `staff` respectively.
+Write a script that changes the owner and the group owner of `_hello` to `vincent` and `staff` respectively.
 - The file `_hello` is in the working directory
 - The file `_hello` is a symbolic link
 ```c
@@ -319,7 +319,7 @@ mathieu@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 mathieu mathieu      44 Sep 20 15:12 15-symbolic_link_permissions
 -rw-rw-r-- 1 mathieu mathieu      23 Sep 20 14:25 hello
-lrwxrwxrwx 1 caroline  staff    5 Sep 20 15:10 _hello -> hello
+lrwxrwxrwx 1 vincent  staff    5 Sep 20 15:10 _hello -> hello
 mathieu@ubuntu:/tmp/h$ 
 ```
 
@@ -327,18 +327,18 @@ mathieu@ubuntu:/tmp/h$
 
 #### [16. If Only](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/16-if_only)
 
-Write a script that changes the owner of the file `hello` to `caroline` only if it is owned by the user `hulk`.
+Write a script that changes the owner of the file `hello` to `vincent` only if it is owned by the user `guillaume`.
 - The file `hello` will be in the working directory
 ```c
 mathieu@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 mathieu    mathieu      47 Sep 20 15:18 16-if_only 
--rw-rw-r-- 1 hulk mathieu      23 Sep 20 14:25 hello
+-rw-rw-r-- 1 guillaume mathieu      23 Sep 20 14:25 hello
 mathieu@ubuntu:/tmp/h$ sudo ./16-if_only 
 mathieu@ubuntu:/tmp/h$ ls -l
 total 24
 -rwxrwxr-x 1 mathieu mathieu      47 Sep 20 15:18 16-if_only 
--rw-rw-r-- 1 caroline  mathieu      23 Sep 20 14:25 hello
+-rw-rw-r-- 1 vincent  mathieu      23 Sep 20 14:25 hello
 mathieu@ubuntu:/tmp/h$ 
 ```
 
