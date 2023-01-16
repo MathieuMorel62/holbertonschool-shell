@@ -792,6 +792,7 @@ mathieu@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
     
 ---------------------------------
 
+
 #### [25. Acrostic](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/25-acrostic)
 
 An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. [Read more](https://en.wikipedia.org/wiki/Acrostic)
