@@ -326,7 +326,7 @@ You are only allowed to use two spaces (and lines) in your script, not more.
 ```c
 mathieu@ubuntu:/tmp/h$ ls -l
 total 4
--rwxrw-r-- 1 julien julien 44 Sep 20 12:09 17-tree
+-rwxrw-r-- 1 mathieu mathieu 44 Sep 20 12:09 17-tree
 mathieu@ubuntu:/tmp/h$ wc -l 17-tree 
 2 17-tree
 mathieu@ubuntu:/tmp/h$ head -1 17-tree 
@@ -340,7 +340,7 @@ mathieu@ubuntu:/tmp/h$ ls welcome/
 to
 mathieu@ubuntu:/tmp/h$ ls -l welcome/to
 total 4
-drwxrwxr-x 2 julien julien 4096 Sep 20 12:11 school
+drwxrwxr-x 2 mathieu mathieu 4096 Sep 20 12:11 school
 mathieu@ubuntu:/tmp/h$ 
 ```
 
