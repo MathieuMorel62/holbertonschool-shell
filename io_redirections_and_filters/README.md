@@ -748,47 +748,47 @@ Write a script that lists all the files with a `.gif` extension in the current d
 
 ```c
 mathieu@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
-    .:
-    total 28
-    drwxrwxr-x 3 mathieu mathieu 4096 Jan 20 03:35 .
-    drwxrwxr-x 3 mathieu mathieu 4096 Jan 20 02:58 ..
-    -rwxr--r-- 1 mathieu mathieu 43 Jan 20 02:59 0-commas
-    -rwxr--r-- 1 mathieu mathieu 47 Jan 20 02:50 1-empty_casks
-    -rwxrw-r-- 1 mathieu mathieu 68 Jan 20 03:35 2-gifs
-    -rw-rw-r-- 1 mathieu mathieu 14 Jan 20 03:35 Makefile
-    drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 test_dir
+.:
+total 28
+drwxrwxr-x 3 mathieu mathieu 4096 Jan 20 03:35 .
+drwxrwxr-x 3 mathieu mathieu 4096 Jan 20 02:58 ..
+-rwxr--r-- 1 mathieu mathieu 43 Jan 20 02:59 0-commas
+-rwxr--r-- 1 mathieu mathieu 47 Jan 20 02:50 1-empty_casks
+-rwxrw-r-- 1 mathieu mathieu 68 Jan 20 03:35 2-gifs
+-rw-rw-r-- 1 mathieu mathieu 14 Jan 20 03:35 Makefile
+drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 test_dir
 
-    ./test_dir:
-    total 16
-    drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 .
-    drwxrwxr-x 3 mathieu mathieu 4096 Jan 20 03:35 ..
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:40 .horrible_selfie.gif
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 README.md
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:17 docker.gif
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:17 file.sh
-    drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 photos
-    drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 rep.gif
+./test_dir:
+total 16
+drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 .
+drwxrwxr-x 3 mathieu mathieu 4096 Jan 20 03:35 ..
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:40 .horrible_selfie.gif
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 README.md
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:17 docker.gif
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:17 file.sh
+drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 photos
+drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 rep.gif
 
-    ./test_dir/photos:
-    total 8
-    drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 .
-    drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 ..
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 cat.gif
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:22 index.html
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 main.gif
-    -rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 Electra_napping.gif
+./test_dir/photos:
+total 8
+drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 .
+drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 ..
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 cat.gif
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:22 index.html
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 main.gif
+-rw-rw-r-- 1 mathieu mathieu 0 Jan 20 03:23 Electra_napping.gif
 
-    ./test_dir/rep.gif:
-    total 8
-    drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 .
-    drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 ..
-    mathieu@production-503e7013:~/shell/fun_with_the_shell$ ./24-gifs
-    .horrible_selfie
-    cat
-    docker
-    Electra_napping
-    main
-    mathieu@production-503e7013:~/shell/fun_with_the_shell$
+./test_dir/rep.gif:
+total 8
+drwxrwxr-x 2 mathieu mathieu 4096 Jan 20 03:23 .
+drwxrwxr-x 4 mathieu mathieu 4096 Jan 20 03:42 ..
+mathieu@production-503e7013:~/shell/fun_with_the_shell$ ./24-gifs
+.horrible_selfie
+cat
+docker
+Electra_napping
+main
+mathieu@production-503e7013:~/shell/fun_with_the_shell$
 ```  
     
 ---------------------------------  
