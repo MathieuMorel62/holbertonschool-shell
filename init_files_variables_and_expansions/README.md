@@ -1,8 +1,62 @@
-# SHELL, INIT FILES, VARIABLES AND EXPANSIONS
+# <p align="center">SHELL, INIT FILES, VARIABLES AND EXPANSIONS</p>
 
-![img](https://miro.medium.com/max/1400/1*Yln1pgshMWJsX7p4HxTzAA.png)
+<img src="https://miro.medium.com/max/1400/1*Yln1pgshMWJsX7p4HxTzAA.png" width="100%">
 
-## RESOURCES
+## Description
+### Introduction to Shell, Init Files, Variables and Expansions
+  
+The shell is a powerful tool in Unix-based operating systems that allows you to interact with the underlying system by providing a command-line interface. It is a program that reads and executes commands, which can be typed directly into the terminal or read from a script file.
+  
+There are many different shell implementations available, with the most popular being the Bourne-Again SHell (Bash).
+
+### Init Files
+
+When a shell is started, it reads and executes commands from a series of configuration files, also known as "init files". These files contain environment variables, functions and commands that are executed every time you start a new shell session. The most commonly used init files are:
+  
+- `~/.bashrc`: This file is specific to the Bash shell and is executed every time you start a new interactive shell session.
+- `~/.bash_profile`: This file is also specific to the Bash shell and is executed when you log in to your system.
+- `/etc/profile`: This file contains system-wide environment settings and is executed for all users when they log in to the system.
+
+### Variables
+  
+Variables in the shell are used to store and manipulate data. They are an important tool for managing your environment and can be used to store values such as file paths, user information, and other configuration settings.
+  
+To define a variable, you simply use the following syntax:
+
+```bash
+variable_name=value
+```
+
+For example:
+
+```bash
+name=John
+```
+
+To access the value of a variable, you use a dollar sign $ followed by the name of the variable, like this:
+
+```bash
+echo $name
+```
+
+This will print the value of the `name` variable, which in this case is "John".
+
+### Expansions
+
+Expansions are a way to substitute the value of a variable or perform operations on it. There are several types of expansions in the shell, including:
+
+- Command substitution: This allows you to run a command and substitute its output in place of the expansion. You can use either backticks (\`) or `$( )` to perform command substitution.
+- Arithmetic expansion: This allows you to perform arithmetic operations on variables. You can use the `$(( ))` syntax to perform arithmetic expansions.
+- Pathname expansion: This allows you to expand the value of a variable to match a file path pattern. The shell uses the `*`, `?`, and `[]` characters to perform pathname expansion.
+- Brace expansion: This allows you to generate a sequence of values by specifying a range of values within curly braces `{}`.
+  
+Expansions are an important tool for automating tasks and making your scripts more efficient. By using expansions, you can write scripts that are more dynamic and flexible, and that can adapt to changing conditions without the need for manual intervention.
+
+### Conclusion
+
+In conclusion, the shell is a powerful tool that provides a command-line interface to interact with your operating system. By using init files, variables, and expansions, you can manage your environment and automate tasks, making your work more efficient and less prone to error. Whether you are an experienced system administrator or just starting out, understanding these concepts is essential to getting the most out of the shell.
+
+## Resources
 ### Read or Watch :
 
 - [Expansions](https://intranet.hbtn.io/rltoken/qvjamZX_aoZmdZOiEapxzw)
@@ -28,17 +82,17 @@
 
 # TASKS
 
-#### [0. < o >](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/0-alias)
+### [0. < o >](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/0-alias)
 
 Create a script that creates an alias.
 - Name: `ls`
 - Value: `rm *`
   
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@ubuntu:/tmp/0x03$ ls
 0-alias  file1  file2
 mathieu:/tmp/0x03$ source ./0-alias 
@@ -50,15 +104,15 @@ mathieu@ubuntu:/tmp/0x03$
 
 ----------------------------------
 
-#### [1. Hello You](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/1-hello_you)
+### [1. Hello You](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/1-hello_you)
 
 Create a script that prints `hello user`, where user is the current Linux user.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@ubuntu:/tmp/0x03$ id
 uid=1000(mathieu) gid=1000(mathieu) groups=1000(mathieu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
 mathieu@ubuntu:/tmp/0x03$ ./1-hello_you 
@@ -69,15 +123,15 @@ mathieu@ubuntu:/tmp/0x03$
 
 ---------------------------
 
-#### [2. The Path To Success Is To Take Massive, Determinated Action](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/2-path)
+### [2. The Path To Success Is To Take Massive, Determinated Action](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/2-path)
 
 Add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@ubuntu:/tmp/0x03$ echo $PATH
 /home/mathieu/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 mathieu@ubuntu:/tmp/0x03$ source ./2-path 
@@ -89,15 +143,15 @@ mathieu@ubuntu:/tmp/0x03$
 
 -------------------------------
 
-#### [3. If The Path Be Beautiful, Let Us Not Ask Where It Leads](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/3-paths)
+### [3. If The Path Be Beautiful, Let Us Not Ask Where It Leads](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/3-paths)
 
 Create a script that counts the number of directories in the `PATH`.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@ubuntu:/tmp/0x03$ echo $PATH
 /home/mathieu/bin:/home/mathieu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 mathieu@ubuntu:/tmp/0x03$ . ./3-paths 
@@ -111,15 +165,15 @@ mathieu@ubuntu:/tmp/0x03$
 
 ------------------------------
 
-#### [4. Global Variables](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/4-global_variables)
+### [4. Global Variables](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/4-global_variables)
 
 Create a script that lists environment variables.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@ubuntu:/tmp/0x03$ source ./4-global_variables
 CC=gcc
 CDPATH=.:~:/usr/local:/usr:/
@@ -163,7 +217,7 @@ mathieu@ubuntu:/tmp/0x03$
 
 ---------------------------
 
-#### [5. Local Variables](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/5-local_variables)
+### [5. Local Variables](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/5-local_variables)
 
 Create a script that lists all local variables and environment variables, and functions.
 
@@ -171,7 +225,7 @@ Create a script that lists all local variables and environment variables, and fu
 <summary>Click to see the example</summary>
 <br>
 
-```
+```c++
 mathieu@ubuntu:/tmp/0x03$ . ./5-local_variables
 BASH=/bin/bash
 BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote:force_fignore:histappend:interactive_comments:progcomp:promptvars:sourcepath
@@ -199,7 +253,7 @@ mathieu@ubuntu:/tmp/0x03$
 
 ------------------------------
 
-#### [6. Local Variables](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/6-create_local_variable)
+### [6. Local Variables](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/6-create_local_variable)
 
 Create a script that creates a new local variable.
 - Name: `BEST`
@@ -207,7 +261,7 @@ Create a script that creates a new local variable.
 
 ------------------------------
 
-#### [7. Global Variable](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/7-create_global_variable)
+### [7. Global Variable](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/7-create_global_variable)
 
 Create a script that creates a new global variable.
 - Name: `BEST`
@@ -215,15 +269,15 @@ Create a script that creates a new global variable.
 
 -----------------------------
 
-#### [8. Every Addition To True Knowledge Is An Addition To Human Power](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/8-true_knowledge)
+### [8. Every Addition To True Knowledge Is An Addition To Human Power](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/8-true_knowledge)
 
 Write a script that prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a new line.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@production-503e7013:~$ export TRUEKNOWLEDGE=1209
 mathieu@production-503e7013:~$ ./8-true_knowledge | cat -e
 1337$
@@ -233,16 +287,16 @@ mathieu@production-503e7013:~$
 
 -----------------------------
 
-#### [9. Divide And Rule]( https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/9-divide_and_rule)
+### [9. Divide And Rule]( https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/9-divide_and_rule)
 
 Write a script that prints the result of `POWER` divided by `DIVIDE`, followed by a new line.
 - `POWER` and `DIVIDE` are environment variables
   
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@production-503e7013:~$ export POWER=42784
 mathieu@production-503e7013:~$ export DIVIDE=32
 mathieu@production-503e7013:~$ ./9-divide_and_rule | cat -e
@@ -253,17 +307,17 @@ mathieu@production-503e7013:~$
 
 ------------------------------
 
-#### [10. Love Is Anterior To Life, Posterior To Death, Initial Of Creation, And The Exponent Of Breath](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/10-love_exponent_breath)
+### [10. Love Is Anterior To Life, Posterior To Death, Initial Of Creation, And The Exponent Of Breath](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/10-love_exponent_breath)
 
 Write a script that displays the result of `BREATH` to the power `LOVE`
 - `BREATH` and `LOVE` are environment variables
 - The script should display the result, followed by a new line
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@production-503e7013:~/$ export BREATH=4
 mathieu@production-503e7013:~/$ export LOVE=3
 mathieu@production-503e7013:~/$ ./10-love_exponent_breath
@@ -281,10 +335,10 @@ Write a script that converts a number from base 2 to base 10.
 - The script should display the number in base 10, followed by a new line
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@production-503e7013:~/$ export BINARY=10100111001
 mathieu@production-503e7013:~/$ ./11-binary_to_decimal
 1337
@@ -294,7 +348,7 @@ mathieu@production-503e7013:~/$
 
 -----------------------
 
-#### [12. Combination](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/12-combinations)
+### [12. Combination](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/12-combinations)
 
 Create a script that prints all possible combinations of two letters, except `oo`.
 - Letters are lower cases, from `a` to `z`
@@ -304,10 +358,10 @@ Create a script that prints all possible combinations of two letters, except `oo
 - Your script file should contain maximum 64 characters
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@ubuntu:/tmp/0x03$ echo $((26 ** 2 -1))
 675
 mathieu@ubuntu:/tmp/0x03$ ./12-combinations | wc -l
@@ -330,17 +384,17 @@ mathieu@ubuntu:/tmp/0x03$
 
 ---------------------------
 
-#### [13. Floats](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/13-print_float)
+### [13. Floats](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/13-print_float)
 
 Write a script that prints a number with two decimal places, followed by a new line.
 
 The number will be stored in the environment variable `NUM`.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 ubuntu@ip-172-31-63-244:~/0x03$ export NUM=0
 ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 0.00
@@ -356,17 +410,17 @@ ubuntu@ip-172-31-63-244:~/0x03$
 
 -------------------------
 
-#### [14. Decimal To Hexadecimal](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/14-decimal_to_hexadecimal)
+### [14. Decimal To Hexadecimal](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/14-decimal_to_hexadecimal)
 
 Write a script that converts a number from base 10 to base 16.
 - The number in base 10 is stored in the environment variable `DECIMAL`
 - The script should display the number in base 16, followed by a new line
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@production-503e7013:~/$ export DECIMAL=16
 mathieu@production-503e7013:~/$ ./14-decimal_to_hexadecimal
 10
@@ -382,7 +436,7 @@ mathieu@production-503e7013:~/$
 
 ---------------------------
 
-#### [15. What Happens When You Type LS*.C](https://medium.com/@mormth/what-happens-when-you-type-ls-c-in-the-terminal-d64519ca1d63)
+### [15. What Happens When You Type LS*.C](https://medium.com/@mormth/what-happens-when-you-type-ls-c-in-the-terminal-d64519ca1d63)
 
 Write a blog post describing step by step what happens when you type `ls *.c` and hit Enter in your shell. Try to explain every step you know of, and give examples. A total beginner should understand what you have written.
 - Have at least one picture, at the top of the blog post
@@ -395,15 +449,15 @@ When done, please add all urls below (blog post, LinkedIn post, etc.)
 
 --------------------------
 
-#### [16. Everyone Is a Proponent Of Strong Encryption](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
+### [16. Everyone Is a Proponent Of Strong Encryption](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/15-rot13)
 
 Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@production-503e7013:~/shell/fun_with_the_shell$ cat quote
 "Everyone is a proponent of strong encryption."
 - Dorothy E. Denning
@@ -416,15 +470,15 @@ mathieu@production-503e7013:~/shell/fun_with_the_shell$
 
 --------------------------
 
-#### [17. The Eggs Of The Brood Need To Be An Odd Number](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/16-odd)
+### [17. The Eggs Of The Brood Need To Be An Odd Number](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/16-odd)
 
 Write a script that prints every other line from the input, starting with the first line.
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 ubuntu@ip-172-31-63-244:/$ \ls -1
 bin
 boot
@@ -475,7 +529,7 @@ ubuntu@ip-172-31-63-244:/$
 
 ---------------------------
 
-#### [18. I'm An Instants Star. Just Add Water And Stir](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/17-water_and_stir)
+### [18. I'm An Instants Star. Just Add Water And Stir](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/init_files_variables_and_expansions/17-water_and_stir)
 
 Write a shell script that adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result.
 - `WATER` is in base `water`
@@ -483,10 +537,10 @@ Write a shell script that adds the two numbers stored in the environment variabl
 - The result should be in base `bestchol`
 
 <details>
-<summary>Click to see the example</summary>
+<summary>File Test</summary>
 <br>
 
-```
+```c++
 mathieu@production-503e7013:~$ export WATER="ewwatratewa"
 mathieu@production-503e7013:~$ export STIR="ti.itirtrtr"
 mathieu@production-503e7013:~$ ./17-water_and_stir
