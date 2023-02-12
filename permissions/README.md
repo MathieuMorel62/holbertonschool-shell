@@ -1,8 +1,35 @@
-# SHELL, PERMISSIONS
+# <p align="center">SHELL, PERMISSIONS</p>
 
-![img](https://cdn.mindmajix.com/blog/images/linux-file-permissions-07092020.png)
+<img src="https://cdn.mindmajix.com/blog/images/linux-file-permissions-07092020.png" width="100%">
 
-## RESOURCES
+## Description
+### Shell Permissions
+
+Shell permissions determine who can do what with a file or directory on the operating system. Permissions can be set for three different groups of users: the file owner, the group associated with the file, and everyone.
+
+### Types of Permissions
+
+There are three types of Shell permissions: read, write, and execute.
+
+- Read permission (`r`) allows a user to read the contents of a file or list the files in a directory.
+- Write permission (`w`) allows a user to modify the contents of a file or create new files in a directory.
+- Execute permission (`x`) allows a user to run a file as a program.
+
+### Permission Commands
+
+Here are the basic commands for managing permissions in Shell:
+  
+- `chmod`: Changes the permissions of a file or directory
+- `chown`: Changes the owner of a file or directory
+- `chgrp`: Changes the group associated with a file or directory
+  
+It's important to understand Shell permissions to ensure that important files and directories are protected and that users can access the files and directories they need to do their work.
+
+### Conclusion
+  
+In conclusion, Shell permissions allow for controlling who can do what with the files and directories on the operating system. The types of permissions include read, write, and execute, and the permission commands allow for managing these permissions for different users. Understanding Shell permissions is important for ensuring the security and functionality of the operating system.
+
+## Resources
 ### Read or Watch:
 
 - [Permissions](https://intranet.hbtn.io/rltoken/UL7cEzRpzknNKTQ-3-zH2w)
@@ -22,7 +49,7 @@
 
 # TASKS
 
-#### [0. My Name Is Betty](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/0-iam_betty)
+### [0. My Name Is Betty](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/0-iam_betty)
 
 Create a script that switches the current user to the user `betty`.
 - You should use exactly 8 characters for your command (+1 character for the new line)
@@ -35,7 +62,7 @@ mathieu@ubuntu:/tmp/h$
 
 ----------------------
 
-#### [1. Who Am I](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/1-who_am_i)
+### [1. Who Am I](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/1-who_am_i)
 
 Write a script that prints the effective username of the current user.
 ```c
@@ -46,7 +73,7 @@ mathieu@ubuntu:/tmp/h$
 
 -----------------------
 
-#### [2. Groups](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/2-groups)
+### [2. Groups](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/2-groups)
 
 Write a script that prints all the groups the current user is part of.
 ```
@@ -58,7 +85,7 @@ Note: depending on the user, you will get a different output.
 
 -----------------------
 
-#### [3. New Owner](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/3-new_owner)
+### [3. New Owner](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/3-new_owner)
 
 Write a script that changes the owner of the file `hello` to the user `betty`.
 ```c
@@ -76,13 +103,13 @@ mathieu@ubuntu:/tmp/h$
 
 ----------------------
 
-#### [4. Empty !](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/4-empty)
+### [4. Empty !](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/4-empty)
 
 Write a script that creates an empty file called `hello`.
 
 ----------------------
 
-#### [5. Execute](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/5-execute)
+### [5. Execute](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/5-execute)
 
 Write a script that adds execute permission to the owner of the file `hello`.
 - The file `hello` will be in the working directory
@@ -103,7 +130,7 @@ mathieu@ubuntu:/tmp/h$
 
 -----------------------
 
-#### [6. Multiple Permissions](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/6-multiple_permissions)
+### [6. Multiple Permissions](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/6-multiple_permissions)
 
 Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`.
 - The file `hello` will be in the working directory
@@ -122,7 +149,7 @@ mathieu@ubuntu:/tmp/h$
 
 ------------------------------
 
-#### [7. Everybody !](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/7-everybody)
+### [7. Everybody !](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/7-everybody)
 
 Write a script that adds execution permission to the owner, the group owner and the other users, to the file `hello`
 - The file `hello` will be in the working directory
@@ -142,7 +169,7 @@ mathieu@ubuntu:/tmp/h$
 
 -------------------------
 
-#### [8. James Bond](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/8-James_Bond)
+### [8. James Bond](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/8-James_Bond)
 
 Write a script that sets the permission to the file `hello` as follows:
 - Owner: no permission at all
@@ -165,7 +192,7 @@ mathieu@ubuntu:/tmp/h$
 
 ------------------------
 
-#### [9. John Doe](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/9-John_Doe)
+### [9. John Doe](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/9-John_Doe)
 
 Write a script that sets the mode of the file `hello` to this :
 ```c
@@ -177,7 +204,7 @@ Write a script that sets the mode of the file `hello` to this :
 
 ------------------------
 
-#### [10. Look In The Mirror](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/10-mirror_permissions)
+### [10. Look In The Mirror](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/10-mirror_permissions)
 
 Write a script that sets the mode of the file `hello` the same as `olleh`’s mode.
 - The file `hello` will be in the working directory
@@ -201,7 +228,7 @@ Note: the mode of `olleh` will not always be 664. Make sure your script works fo
 
 ---------------------------
 
-#### [11. Directories](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/11-directories_permissions)
+### [11. Directories](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/11-directories_permissions)
 
 Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 ```c
@@ -225,7 +252,7 @@ mathieu@ubuntu:/tmp/h$
 
 ----------------------------
 
-#### [12. More Directories](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/12-directory_permissions)
+### [12. More Directories](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/12-directory_permissions)
 
 Create a script that creates a directory called `my_dir` with permissions 751 in the working directory.
 ```c
@@ -250,7 +277,7 @@ mathieu@ubuntu:/tmp/h$
 
 ----------------------------
 
-#### [13. Change Group](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/13-change_group)
+### [13. Change Group](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/13-change_group)
 
 Write a script that changes the group owner to `school` for the file `hello`
 - The file hello will be in the working directory
@@ -277,7 +304,7 @@ mathieu@ubuntu:/tmp/h$
 
 ---------------------------
 
-#### [14. Owner And Group](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/14-change_owner_and_group)
+### [14. Owner And Group](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/14-change_owner_and_group)
 
 Write a script that changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory.
 ```c
@@ -303,7 +330,7 @@ mathieu@ubuntu:/tmp/h$
 
 ----------------------------
 
-#### [15. Symbolic Links](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/15-symbolic_link_permissions)
+### [15. Symbolic Links](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/15-symbolic_link_permissions)
 
 Write a script that changes the owner and the group owner of `_hello` to `vincent` and `staff` respectively.
 - The file `_hello` is in the working directory
@@ -325,7 +352,7 @@ mathieu@ubuntu:/tmp/h$
 
 ---------------------------
 
-#### [16. If Only](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/16-if_only)
+### [16. If Only](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/permissions/16-if_only)
 
 Write a script that changes the owner of the file `hello` to `vincent` only if it is owned by the user `guillaume`.
 - The file `hello` will be in the working directory
