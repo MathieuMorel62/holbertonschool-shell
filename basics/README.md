@@ -1,10 +1,33 @@
-# SHELL, BASICS
+# <p align="center">SHELL, BASICS</p>
 
 <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg" width="100%">
 
-## RESOURCES
+## Description
+### Introduction to Shell
 
-### Read or watch: 
+Shell is a command-line interpreter for operating systems such as Linux and macOS. It provides a command-line interface for interacting with the operating system and executing tasks such as file management, script creation, and program execution.
+
+### Shell Basics
+
+Here are some basic Shell commands you can use to explore and manage files and folders in your system:
+
+- `ls`: Displays a list of files and folders in the current directory
+- `cd`: Changes the current directory
+- `pwd`: Displays the full path of the current directory
+- `mkdir`: Creates a new directory
+- `touch`: Creates a new, empty file
+- `cp`: Copies a file or directory
+- `mv`: Moves or renames a file or directory
+- `rm`: Deletes a file or directory
+
+There are many other useful Shell commands, but these basic commands are a good starting point for exploring and using the command-line interface.
+
+### Conclusion
+
+In conclusion, Shell is a powerful tool for interacting with the operating system and automating common tasks. It may take some time to master the basic commands, but once you understand them, you can quickly and efficiently accomplish many tasks on your system.
+
+## Resources
+### Read or Watch: 
 
 - [What Is "The Shell" ?](https://intranet.hbtn.io/rltoken/aygkrwOyI_yLtXHF1Yj0QQ)
 - [Navigation](https://intranet.hbtn.io/rltoken/fMDkg3TKjANJSPTROMQSpA)
@@ -65,7 +88,7 @@ mathieu@ubuntu:/tmp$
 ------------------------
 # TASKS
 
-#### [0. Where Am I ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/0-current_working_directory)
+### [0. Where Am I ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/0-current_working_directory)
 
 Write a script that prints the absolute path name of the current working directory.  
 
@@ -77,7 +100,7 @@ $
 
 --------------------
 
-#### [1. What's In There ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/1-listit)
+### [1. What's In There ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/1-listit)
 
 Display the contents list of your current directory.
 ```c
@@ -89,7 +112,7 @@ $
 
 ------------------------
 
-#### [2. There Is No Place Like Home](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/2-bring_me_home)
+### [2. There Is No Place Like Home](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/2-bring_me_home)
 
 Write a script that changes the working directory to the user’s home directory.
 
@@ -107,7 +130,7 @@ mathieu@ubuntu:~$
 
 -------------------------
 
-#### [3. The Long Format](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/3-listfiles)
+### [3. The Long Format](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/3-listfiles)
 
 Display current directory contents in a long format
 ```c
@@ -122,7 +145,7 @@ $
 
 -------------------------
 
-#### [4. Hidden Files](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/4-listmorefiles)
+### [4. Hidden Files](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/4-listmorefiles)
 
 Display current directory contents, including hidden files (starting with `.`). Use the long format.
 ```c
@@ -140,7 +163,7 @@ $
 
 --------------------------
 
-#### [5. I Love Numbers](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/5-listfilesdigitonly)
+### [5. I Love Numbers](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/5-listfilesdigitonly)
 
 Display current directory contents.
 - Long format
@@ -162,7 +185,7 @@ $
 
 -------------------------
 
-#### [6. Welcome](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/6-firstdirectory)
+### [6. Welcome](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/6-firstdirectory)
 
 Create a script that creates a directory named `my_first_directory` in the `/tmp/` directory.
 ```
@@ -174,7 +197,7 @@ $
 
 ---------------------
 
-#### [7. Betty In My First Directory](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/7-movethatfile)
+### [7. Betty In My First Directory](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/7-movethatfile)
 
 Move the file `betty` from `/tmp/` to `/tmp/my_first_directory`.
 ```
@@ -186,7 +209,7 @@ $
 
 -------------------------
 
-#### [8. Bye Bye Betty](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/8-firstdelete)
+### [8. Bye Bye Betty](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/8-firstdelete)
 
 Delete the file `betty`.
 - he file `betty` is in `/tmp/my_first_directory`
@@ -198,7 +221,7 @@ $
 
 -------------------------
 
-#### [9. Bye Bye My First Directory](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/9-firstdirdeletion)
+### [9. Bye Bye My First Directory](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/9-firstdirdeletion)
 
 Delete the directory `my_first_directory` that is in the `/tmp` directory.
 ```c
@@ -210,7 +233,7 @@ $
 
 -------------------------
 
-#### [10. Back To The Future](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/10-back)
+### [10. Back To The Future](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/10-back)
 
 Write a script that changes the working directory to the previous one.
 ```c
@@ -227,13 +250,13 @@ mathieu@ubuntu:/tmp$ pwd
 
 -----------------------------
 
-#### [11. Lists](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/11-lists)
+### [11. Lists](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/11-lists)
 
 Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
 
 ---------------------------
 
-#### [12. File Type](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/12-file_type)
+### [12. File Type](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/12-file_type)
 
 Write a script that prints the type of the file named `iamafile`. The file `iamafile` will be in the `/tmp` directory when we will run your script.
 ```c
@@ -243,7 +266,7 @@ ubuntu@ip-172-31-63-244:~$ ./12-file_type
 
 -------------------------------
 
-#### [13. We Are Symbols, And Inhabit Symbols](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/13-symbolic_link)
+### [13. We Are Symbols, And Inhabit Symbols](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/13-symbolic_link)
 
 Create a symbolic link to `/bin/ls`, named `__ls__`. The symbolic link should be created in the current working directory.
 ```c
@@ -261,7 +284,7 @@ lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
 
 -------------------------
 
-#### [14. Copy Html Files](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/14-copy_html)
+### [14. Copy Html Files](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/14-copy_html)
 
 Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
@@ -269,7 +292,7 @@ You can consider that all HTML files have the extension `.html`
 
 --------------------
 
-#### [15. Let's Move](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/15-lets_move)
+### [15. Let's Move](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/15-lets_move)
 
 Create a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`.
 
@@ -304,7 +327,7 @@ drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
 
 ---------------------
 
-#### [16. Clean Emacs](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/16-clean_emacs)
+### [16. Clean Emacs](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/16-clean_emacs)
 
 Create a script that deletes all files in the current working directory that end with the character `~`.
 ```c
@@ -318,7 +341,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 
 --------------------
 
-#### [17. Tree](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/17-tree)
+### [17. Tree](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/basics/17-tree)
 
 Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
 
