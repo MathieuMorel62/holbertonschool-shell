@@ -51,9 +51,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >A shebang is a special code in the first line of a script that specifies the interpreter to use for executing the script. It's represented as `#!` followed by the path to the interpreter, for example, `#!/bin/bash` specifies that the script should be run using the bash shell.
 </details>
-
-#### `What Is The Shell`
-
 <details>
 <summary>What is the shell</summary>
 <br>
@@ -78,9 +75,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >The shell maintains a history of previously executed commands. To view your command history, you can use the `history` command. To re-execute a previous command, you can use the `!` followed by the command number, for example, `!123` would execute the command with number 123 from the history. You can also use the up and down arrow keys to navigate the command history.
 </details>
-
-#### `Navigation`
-
 <details>
 <summary>What do the commands or built-ins cd, pwd, ls do</summary>
 <br>
@@ -135,8 +129,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >The `cd -` command changes the current directory to the previous working directory. This can be useful for quickly switching back and forth between two directories.
 </details>
-
-#### `Looking Around`
 <details>
 <summary>What do the commands ls, less, file do</summary>
 <br>
@@ -196,8 +188,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >The main difference between a hard link and a symbolic link is that a hard link points directly to the data on disk, while a symbolic link points to another file. When you access a hard link, you are accessing the same data on disk as the original file, while when you access a symbolic link
 </details>
-
-#### `Manipuling Files`
 <details>
 <summary>What do the commands cp, mv, rm, mkdir do</summary>
 <br>
@@ -216,8 +206,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >How to use wildcards: Wildcards can be used in combination with commands such as `ls`, `cp`, `mv`, and `rm` to match multiple files or directories. For example, `ls *` will list all files and directories in the current directory, while `rm *.txt` will remove all files with a .txt extension. The `*` and `?` characters can also be used to match specific patterns, such as `*.jpg` to match all files with a `.jpg` extension.
 </details>
-   
-#### `Working Whith Commands`
 <details>
 <summary>What do type, which, help, man commands do</summary>
 <br>
@@ -248,8 +236,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >The `help` command is used when you need simple, brief information about the usage and syntax of a command. The `man` command is used when you need more detailed information about a command, including options and examples.
 </details>
-
-#### `Reading Man Pages`
 <details>
 <summary>How to read a man page</summary>
 <br>
@@ -277,8 +263,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - 7: Miscellanea
 - 8: System management commands (administrator commands)
 </details>
-
-#### `Keyboard Shortcuts For Bash`
 <details>
 <summary>Common shortcuts for Bash</summary>
 <br>
@@ -292,8 +276,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - `ctrl + r`: Search the command history
 - `ctrl + l`: Clear the terminal screen
 </details>
-
-#### `LTS`
 <details>
 <summary>What does LTS mean ?</summary>
 <br>
@@ -303,11 +285,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ---------------------------------
 
-
-
 ### [2. Shell, Permissions](https://github.com/MathieuMorel62/holbertonschool-shell/tree/master/permissions)
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
-#### `Permissions`
+#### `General`
 
 <details>
 <summary>What do the commands chmod, sudo, su, chown, chgrp do</summary>
@@ -351,8 +331,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >To change your user ID to become the superuser (root), you can use the `su` command. This requires that you know the root password. For example, to become the root user, you can run the following command: `su`.
 </details>
-
-#### `Other Man Pages`
 <details>
 <summary>How to create a user</summary>
 <br>
@@ -388,8 +366,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ### [3. Shell, I/O Redirections And Filters](https://github.com/MathieuMorel62/holbertonschool-shell/tree/master/io_redirections_and_filters)
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
+#### `General`
 
-#### `Shell, I/O Redirection`
 <details>
 <summary>What do the commands head, tail, find, wc, sort, uniq, grep, tr</summary>
 <br>
@@ -429,8 +407,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >You can combine multiple commands and filters to perform more complex operations on data. For example, to sort the contents of a file named "example.txt", remove duplicate lines, and display the unique, sorted contents, you can run the following command: `sort < example.txt | uniq`
 </details>
-
-#### `Special Characters`
 <details>
 <summary>What are special characters</summary>
 <br>
@@ -452,8 +428,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - `Command separator (;)`: The command separator is used to separate multiple commands on the same line. When the command separator is used, each command is executed in sequence, and the results of one command are used as the input for the next command. For example: `ls; pwd`
 - `Tilde (~)`: The tilde is used as a shortcut to refer to the home directory of the current user. For example: `cd ~`
 </details>
-
-#### `Other Man Pages`
 <details>
 <summary>How to display a line of text</summary>
 <br>
@@ -495,16 +469,14 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ### [4. Shell, Init Files, Variables And Expansions](https://github.com/MathieuMorel62/holbertonschool-shell/tree/master/init_files_variables_and_expansions)
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
-
 #### `General`
+
 <details>
 <summary>What happens when you type $ ls -l *.txt</summary>
 <br>
 
 >When you type `ls -l *.txt`, the shell expands the `*.txt` wildcard to match all files in the current directory with a `.txt` extension and then passes the list of matched filenames to the `ls` command. The `ls` command then displays a long listing of information about each of the matched files, including the file permissions, owner, group, size, and timestamps.
 </details>
-
-#### `Shell Initialization Files`
 <details>
 <summary>What are the /etc/profile file and the /etc/profile.d directory</summary>
 <br>
@@ -517,8 +489,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >The `~/.bashrc` file is a per-user shell configuration file that is read by the shell when a user starts a new shell session. The file contains settings and configurations that are specific to a single user and are applied each time the user starts a new shell session.
 </details>
-
-#### `Variables`
 <details>
 <summary>What is the difference between a local and a global variable</summary>
 <br>
@@ -559,8 +529,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 >The `$?` special parameter is a reserved variable that stores the exit status of the last executed command and is used to determine if the command was successful or not. A value of 0 indicates that the command was successful, while a non-zero value indicates that the command failed
 </details>
-
-#### `Expansions`
 <details>
 <summary>What is expansion and how to use them</summary>
 <br>
@@ -593,8 +561,6 @@ $ echo Today is `date`
 Today is Mon Feb 11 21:23:48 UTC 2023
 ```
 </details>
-
-#### `Shell Arithmetic`
 <details>
 <summary>How to perform arithmetic operations with the shell</summary>
 <br>
@@ -610,8 +576,6 @@ $ echo $((10 / 2))
 5
 ```
 </details>
-
-#### `The Alias Command`
 <details>
 <summary>How to create an alias</summary>
 <br>
@@ -645,8 +609,6 @@ $ ll
 -bash: ll: command not found
 ```
 </details>
-
-#### `Other Help Pages`
 <details>
 <summary>How to execute commands from a file in the current shell</summary>
 <br>
