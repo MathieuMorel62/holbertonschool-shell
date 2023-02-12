@@ -1,8 +1,41 @@
-# SHELL, I/O REDIRECTIONS AND FILTERS
+# <p align="center">SHELL, I/O REDIRECTIONS AND FILTERS</p>
 
-![img](https://res.cloudinary.com/practicaldev/image/fetch/s--NsAzIo2o--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/af2cde9k5712330xy457.png)
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--NsAzIo2o--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/af2cde9k5712330xy457.png" width="100%">
 
-## RESOURCES
+## Description
+### Introduction to Shell, I/O Redirection, and Filters
+  
+In computing, the shell is the command-line interface that allows you to interact with your operating system. A shell is a program that accepts commands from the user and passes them to the operating system to execute.
+  
+In the context of Unix-like operating systems, the term shell is used to refer to the command-line interface. Some of the popular shells include the Bourne shell (sh), the C shell (csh), and the Bourne Again shell (bash).
+  
+### I/O Redirection
+
+In the shell, I/O redirection is the mechanism that allows you to redirect the standard input, standard output, and standard error streams to or from files, or to combine multiple streams into a single stream. The following are some of the common I/O redirection operators used in the shell:
+
+- `>`: Redirects standard output to a file, overwriting the file if it already exists.
+- `>>`: Redirects standard output to a file, appending to the file if it already exists.
+- `<`: Redirects standard input from a file.
+- `2>`: Redirects standard error to a file, overwriting the file if it already exists.
+- `2>>`: Redirects standard error to a file, appending to the file if it already exists.
+- `&>`: Redirects both standard output and standard error to a file, overwriting the file if it already exists.
+- `&>>`: Redirects both standard output and standard error to a file, appending to the file if it already exists.
+
+### Filters
+
+In the shell, filters are programs that accept input from the standard input stream, perform some operation on the input, and then write the result to the standard output stream. Filters are used to perform operations such as sorting, filtering, and transforming the input data. Some of the common filters used in the shell include :
+
+- `grep` is a filter that searches for patterns in text and outputs lines containing the specified pattern.
+- `sort`: is a filter that sorts input data and outputs the sorted data.
+- `uniq`: is a filter that removes duplicates from input data and outputs the data without duplicates.
+- `wc`: is a filter that counts the number of lines, words, and characters in input data and outputs the count.
+- `cut`: is a filter that extracts specific columns or fields from input data and outputs the specified columns or fields.
+
+### Conclusion
+
+In conclusion, the shell is an essential component of Unix-like operating systems that provides a command-line interface for interacting with the operating system. I/O redirection and filters are two important concepts in the shell that allow you to manipulate the input and output streams to accomplish various tasks. Understanding these concepts is important for anyone who wants to work efficiently in the shell.
+
+## Resources
 ### Read or Watch:
 
 - [Shell, I/O Redirection](https://intranet.hbtn.io/rltoken/dJRc-mwT3vNw7SCWZNlGcg)
@@ -24,32 +57,49 @@
 
 # TASKS
 
-#### [0. Hello World](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/0-hello_world)
+### [0. Hello World](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/0-hello_world)
 
 Write a script that prints “Hello, World”, followed by a new line to the standard output.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/h$ ./0-hello_world 
 Hello, World
 mathieu@ubuntu:/tmp/h$ ./0-hello_world | cat -e
 Hello, World$
 ```
+</details>
 
 --------------------------
 
-#### [1. Confused Smiley](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/1-confused_smiley)
+### [1. Confused Smiley](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/1-confused_smiley)
 
 Write a script that displays a confused smiley `"(Ôo)'`.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/h$ ./1-confused_smiley 
 "(Ôo)'
 ```
+</details>
 
 ------------------------
 
-#### [2. Let's Display a File](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/2-hellofile)
+### [2. Let's Display a File](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/2-hellofile)
 
 Display the content of the `/etc/passwd` file.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./2-hellofile
 ##
 # User Database
@@ -76,13 +126,19 @@ _mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
 _krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
 $
 ```
+</details>
 
 ------------------------
 
-#### [3. What About 2 ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/3-twofiles)
+### [3. What About 2 ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/3-twofiles)
 
 Display the content of `/etc/passwd` and `/etc/hosts`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./3-twofiles
 ##
 # User Database
@@ -108,13 +164,19 @@ daemon:*:1:1:System Services:/var/root:/usr/bin/false
 ::1 localhost
 $
 ```
+</details>
 
 -----------------------
 
-#### [4. Last Lines Of a File](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/4-lastlines)
+### [4. Last Lines Of a File](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/4-lastlines)
 
 Display the last 10 lines of `/etc/passwd`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./4-lastlines
 _assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
 _coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
@@ -127,13 +189,19 @@ _displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
 _astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
 _krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
 ```
+</details>
 
 -----------------------
 
-#### [5. I'd Prefer The First Ones Actually](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/5-firstlines)
+### [5. I'd Prefer The First Ones Actually](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/5-firstlines)
 
 Display the first 10 lines of `/etc/passwd`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./5-firstlines
 ##
 # User Database
@@ -147,16 +215,22 @@ $ ./5-firstlines
 ##
 $
 ```
+</details>
 
 -------------------------
 
-#### [6. Line #2](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/6-third_line)
+### [6. Line #2](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/6-third_line)
 
 Write a script that displays the third line of the file `iacta`.
 
 The file `iacta` will be in the working directory
 - You’re not allowed to use `sed`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/h$ cat iacta 
 Alea iacta est
 
@@ -175,13 +249,19 @@ Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
 mathieu@ubuntu:/tmp/h$ ./6-third_line 
 Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
 ```
+</details>
 
 --------------------------
 
-#### [7. It Is a Good File That Cuts Iron Without Making a Noise](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/7-file)
+### [7. It Is a Good File That Cuts Iron Without Making a Noise](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/7-file)
 
 Write a shell script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:~/shell$ ls && ./7-file && ls -l && cat -e \\*
 0-mac_and_cheese 7-file 7-file~ Makefile
 total 20
@@ -192,15 +272,21 @@ total 20
 -rw-rw-r-- 1 mathieu mathieu 17 Jan 20 06:40 '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
 Best School$
 ```
+</details>
 
 ---------------------------
 
-#### [8. Save Current State Of Directory](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/8-cwd_state)
+### [8. Save Current State Of Directory](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/8-cwd_state)
 
 Write a script that writes into the file `ls_cwd_content` the result of the command `ls -la`. 
 
 If the file `ls_cwd_content` already exists, it should be overwritten. If the file `ls_cwd_content` does not exist, create it.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/h$ ls -la
 total 20
 drwxrwxr-x  2 mathieu mathieu 4096 Sep 20 18:18 .
@@ -208,6 +294,7 @@ drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
 -rwxrw-r--  1 mathieu mathieu   36 Sep 20 18:18 8-cwd_state
 -rw-rw-r--  1 betty  mathieu   23 Sep 20 14:25 hello
 -rw-rw-r--  1 mathieu mathieu  926 Sep 20 17:52 iacta
+
 mathieu@ubuntu:/tmp/h$ ./8-cwd_state 
 mathieu@ubuntu:/tmp/h$ ls -la
 total 24
@@ -217,6 +304,7 @@ drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
 -rw-rw-r--  1 betty  mathieu   23 Sep 20 14:25 hello
 -rw-rw-r--  1 mathieu mathieu  926 Sep 20 17:52 iacta
 -rw-rw-r--  1 mathieu mathieu  329 Sep 20 18:18 ls_cwd_content
+
 mathieu@ubuntu:/tmp/h$ cat ls_cwd_content 
 total 20
 drwxrwxr-x  2 mathieu mathieu 4096 Sep 20 18:18 .
@@ -226,14 +314,20 @@ drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
 -rw-rw-r--  1 mathieu mathieu  926 Sep 20 17:52 iacta
 -rw-rw-r--  1 mathieu mathieu    0 Sep 20 18:18 ls_cwd_content
 ```
+</details>
 
 --------------------------------
 
-#### [9. Duplicate Last Line](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/9-duplicate_last_line)
+### [9. Duplicate Last Line](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/9-duplicate_last_line)
 
 Write a script that duplicates the last line of the file `iacta`
 - The file `iacta` will be in the working directory
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/h$ cat iacta 
 Alea iacta est
 
@@ -249,6 +343,7 @@ German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many oth
 indicate that events have passed a point of no return.
 
 Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+
 mathieu@ubuntu:/tmp/h$ ./9-duplicate_last_line 
 mathieu@ubuntu:/tmp/h$ cat iacta 
 Alea iacta est
@@ -267,13 +362,19 @@ indicate that events have passed a point of no return.
 Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
 Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
 ```
+</details>
 
 ---------------------------------
 
-#### [10. No More Javascript](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/10-no_more_js)
+### [10. No More Javascript](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/10-no_more_js)
 
 Write a script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/h$ ls -lR
 .:
 total 24
@@ -291,6 +392,7 @@ total 0
 
 ./dir.js:
 total 0
+
 mathieu@ubuntu:/tmp/h$ ./10-no_more_js 
 mathieu@ubuntu:/tmp/h$ ls -lR
 .:
@@ -308,15 +410,21 @@ total 0
 ./dir.js:
 total 0
 ```
+</details>
 
 ----------------------------
 
-#### [11. Don't Just Count Your Directories, Make Your Directories Count](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/11-directories)
+### [11. Don't Just Count Your Directories, Make Your Directories Count](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/11-directories)
 
 Write a script that counts the number of directories and sub-directories in the current directory.
 - The current and parent directories should not be taken into account
 - Hidden directories should be counted
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@production-503e7013:~/shell/fun_with_the_shell$ ls -lRa
 .:
 total 32
@@ -357,17 +465,23 @@ mathieu@production-503e7013:~/shell/fun_with_the_shell$ ./11-directories
 3
 mathieu@production-503e7013:~/shell/fun_with_the_shell$
 ```
+</details>
 
 ----------------------------
 
-#### [12. What's New](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/12-newest_files)
+### [12. What's New](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/12-newest_files)
 
 Create a script that displays the 10 newest files in the current directory.
 
 Requirements :
 - One file per line
 - Sorted from the newest to the oldest
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp$ ls -l
 total 7
 -rwxr-xr-x 1 501 dialout  32 Sep 27 23:51 0-hello_world
@@ -384,6 +498,7 @@ total 7
 -rwxr-xr-x 1 501 dialout  36 Sep 28 00:34 8-cwd_state
 -rwxr-xr-x 1 501 dialout  35 Sep 28 00:35 9-duplicate_last_line
 -rw-r--r-- 1 501 dialout  19 Sep 27 23:51 README.md
+
 mathieu@ubuntu:/tmp$ ./12-newest_files 
 12-newest_files
 11-directories
@@ -396,16 +511,22 @@ mathieu@ubuntu:/tmp$ ./12-newest_files
 4-lastlines
 3-twofiles
 ```
+</details>
 
 ------------------------------
 
-#### [13. Being Unique Is Better Than Being Perfect](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/13-unique)
+### [13. Being Unique Is Better Than Being Perfect](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/13-unique)
 
 Create a script that takes a list of words as input and prints only words that appear exactly once.
 - Input format: One line, one word
 - Output format: One line, one word
 - Words should be sorted
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/0x02$ cat list 
 C#
 C
@@ -433,42 +554,61 @@ Javascript
 Javascript
 Javascript
 ASP
+
 mathieu@ubuntu:/tmp/0x02$ cat list | ./13-unique 
 C
 C++
 Go
 ```
+</details>
 
 ----------------------------
 
-#### [14. It Must Be In That File](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/14-findthatword)
+### [14. It Must Be In That File](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/14-findthatword)
 
 Display lines containing the pattern “root” from the file `/etc/passwd`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./14-findthatword
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
 _cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
 $
 ```
+</details>
 
 ----------------------
 
-#### [15. Count That Word](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/15-countthatword)
+### [15. Count That Word](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/15-countthatword)
 
 Display the number of lines that contain the pattern “bin” in the file `/etc/passwd`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./15-countthatword
 81
 $ 
 ```
+</details>
 
 ---------------------------
 
-#### [16. What's Next ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/16-whatsnext)
+### [16. What's Next ?](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/16-whatsnext)
 
 Display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./16-whatsnext
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
@@ -482,13 +622,19 @@ _dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
 _dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
 $
 ```
+</details>
 
 --------------------------------
 
-#### [17. I Hate Bins](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/17-hidethisword)
+### [17. I Hate Bins](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/17-hidethisword)
 
 Display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./17-hidethisword
 ##
 # User Database
@@ -502,14 +648,20 @@ $ ./17-hidethisword
 ##
 $
 ```
+</details>
 
 --------------------------------
 
-#### [18. Letters Only Please](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/18-letteronly)
+### [18. Letters Only Please](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/18-letteronly)
 
 Display all lines of the file `/etc/ssh/sshd_config` starting with a letter.
 - include capital letters as well
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 $ ./18-letteronly
 SyslogFacility AUTHPRIV
 AuthorizedKeysFile  .ssh/authorized_keys
@@ -518,44 +670,68 @@ AcceptEnv LANG LC_*
 Subsystem   sftp    /usr/libexec/sftp-server
 $
 ```
+</details>
 
 ---------------------------
 
-#### [19. A To Z](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/19-AZ)
+### [19. A To Z](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/19-AZ)
 
 Replace all characters `A` and `c` from input to `Z` and `e` respectively.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ 
 Replaee all eharaeters `Z` and `e` from input to `Z` and `e`.
 ```
+</details>
 
 ----------------------------
 
-#### [20. Without C, You Would Live In Hiago](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/20-hiago)
+### [20. Without C, You Would Live In Hiago](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/20-hiago)
 
 Create a script that removes all letters `c` and `C` from input.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago 
 hiago
 ```
+</details>
 
 ---------------------------
 
-#### [21. Esrever](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/21-reverse)
+### [21. Esrever](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/21-reverse)
 
 Write a script that reverse its input.
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/0x02$ echo "Reverse" | ./21-reverse 
 esreveR
 ```
+</details>
 
 ----------------------------
 
-#### [22. Dj Cut Killer](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/22-users_and_homes)
+### [22. Dj Cut Killer](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/22-users_and_homes)
 
 Write a script that displays all users and their home directories, sorted by users.
 - Based on the the `/etc/passwd file`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/0x02$ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -599,6 +775,7 @@ usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
 julien:x:1000:1000:Julien Barbier,,,:/home/julien:/bin/bash
 guillaume:x:1001:1001:,,,:/home/guillaume:/bin/bash
 betty:x:1002:1002::/home/betty:
+
 mathieu@ubuntu:/tmp/0x02$
 mathieu@ubuntu:/tmp/0x02$ ./22-users_and_homes 
 _apt:/nonexistent
@@ -645,10 +822,11 @@ whoopsie:/nonexistent
 www-data:/var/www
 mathieu@ubuntu:/tmp/0x02$ 
 ```
+</details>
 
 ------------------------------
 
-#### [23. Empty Casks Make The Most Noise](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/23-empty_casks)
+### [23. Empty Casks Make The Most Noise](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/23-empty_casks)
 
 Write a command that finds all empty files and directories in the current directory and all sub-directories.
 - Only the names of the files and directories should be displayed (not the entire path)
@@ -656,7 +834,12 @@ Write a command that finds all empty files and directories in the current direct
 - One file name per line
 - The listing should end with a new line
 - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$ ls -laR
 .:
 total 64
@@ -731,10 +914,11 @@ rudy_rigot.gif
 ........gif
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$
 ```
+</details>
 
 ------------------------------
 
-#### [24. A Gif Is Worth Ten Thousand Words](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/24-gifs)
+### [24. A Gif Is Worth Ten Thousand Words](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/24-gifs)
 
 Write a script that lists all the files with a `.gif` extension in the current directory and all its sub-directories.
 
@@ -746,7 +930,11 @@ Write a script that lists all the files with a `.gif` extension in the current d
   - The listing should end with a new line
   - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
 
-```c
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
 .:
 total 28
@@ -789,18 +977,24 @@ docker
 Electra_napping
 main
 mathieu@production-503e7013:~/shell/fun_with_the_shell$
-```  
+```
+</details>
     
 ---------------------------------  
   
-#### [25. Acrostic](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/25-acrostic)
+### [25. Acrostic](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/25-acrostic)
 
 An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. [Read more](https://en.wikipedia.org/wiki/Acrostic)
 
 Create a script that decodes acrostics that use the first letter of each line.
 - The ‘decoded’ message has to end with a new line
 - You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
-```c
+
+<details>
+<summary>File Test</summary>
+<br>
+
+```c++
 mathieu@ubuntu:/tmp/0x02$ cat An\ Acrostic 
 Elizabeth it is in vain you say
 Love not"—thou sayest it in so sweet a way:
@@ -814,16 +1008,18 @@ His follie—pride—and passion—for he died.
 mathieu@ubuntu:/tmp/0x02$ ./25-acrostic < An\ Acrostic 
 ELIZABETH 
 ```
+</details>
 
 ------------------------------
 
-#### [26. The Biggest Fan](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/26-the_biggest_fan)
+### [26. The Biggest Fan](https://github.com/MathieuMorel62/holbertonschool-shell/blob/master/io_redirections_and_filters/26-the_biggest_fan)
 
 Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 - Order by number of requests, most active host or IP at the top
 - You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
 
 Format:
+
 ```c
 host    When possible, the hostname making the request. Uses the IP address if the hostname was unavailable.
 logname Unused, always -
